@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# Data and Models (Keep the Haar Cascades, ignore templates/large datasets)
+data/*.json
+!models/haarcascade_*.xml
+
+# OS
+.DS_Store
+Thumbs.db
